@@ -1,6 +1,6 @@
 # UFOs
 ### Overview of Project:
-- The purpose of this analysis is to use JavaScript to create a dynamic table that displays data from UFO sightings, while also allowing users to filter the data based on the date it was found, the city, state and country it was found in as well as the shape of the sighting. 
+The purpose of this analysis is to use JavaScript to create a dynamic table that displays data from UFO sightings, while also allowing users to filter the data based on the date it was found, the city, state and country it was found in as well as the shape of the sighting. 
 
 ### Results:
 ##### Step 1: In order to use this webpage, scroll down to the table, with the filter input boxes to its left: 

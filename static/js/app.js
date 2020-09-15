@@ -65,23 +65,22 @@ function updateFilters() {
       filteredData = filteredData.filter(row => row.datetime === filters.datetime);
       console.log(filteredData);
     }
-    else if (filters.city) {
+    if (filters.city) {
       filteredData = filteredData.filter(row => row.city === filters.city);
       console.log(filteredData);
     }
-    else if (filters.state) {
+    if (filters.state) {
       filteredData = filteredData.filter(row => row.state === filters.state);
       console.log(filteredData);
     }
-    else if (filters.country) {
+    if (filters.country) {
       filteredData = filteredData.filter(row => row.country === filters.country);
       console.log(filteredData);
     }
-    else if (filters.shape) {
+    if (filters.shape) {
       filteredData = filteredData.filter(row => row.shape === filters.shape);
       console.log(filteredData);
     }
-
 
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
